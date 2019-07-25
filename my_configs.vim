@@ -26,5 +26,8 @@ filetype plugin indent on    " required
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal"
 
 " change popup window color of YCM
-:highlight Pmenu guibg=gray
-:highlight Pmenu ctermbg=gray
+highlight Pmenu guibg=gray
+highlight Pmenu ctermbg=gray
+
+" set line number
+set number
