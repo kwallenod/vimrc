@@ -1,3 +1,4 @@
+" Vundle
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -23,4 +24,7 @@ filetype plugin indent on    " required
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal"
-" "
+
+" change popup window color of YCM
+:highlight Pmenu guibg=gray
+:highlight Pmenu ctermbg=gray
