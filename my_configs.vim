@@ -31,3 +31,12 @@ highlight Pmenu ctermbg=gray
 
 " set line number
 set number
+
+" set YCM python interpreter
+" let g:ycm_server_python_interpreter='/Users/du/anaconda3/envs/cv/bin/ipython'
+let g:ycm_server_python_interpreter='/usr/local/Cellar/python/3.7.4/bin/python3.7'
+
+" highlight cursor color
+set cursorline
+hi CursorLine ctermbg=lightyellow
+
